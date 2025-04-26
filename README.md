@@ -76,6 +76,10 @@ cargo run --bin 1001
 - [x] 3046-domino
 - [x] 3048-secret_sequency
 - [x] 3055-nota_forgetten
+- [x] 1144-logic_sequence
+- [x] 2172-event
+- [x] 2432-saldo_vovo
+- [x] 2615-expand_bussiness
 
 *(adicione mais aqui conforme resolver)*
 
