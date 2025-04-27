@@ -80,6 +80,8 @@ cargo run --bin 1001
 - [x] 2172-event
 - [x] 2432-saldo_vovo
 - [x] 2615-expand_bussiness
+- [x] 1018-increase_amount
+- [x] 1049-animal
 
 *(adicione mais aqui conforme resolver)*
 
