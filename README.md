@@ -89,6 +89,9 @@ cargo run --bin 1001
 - [x] 1060-positive
 - [x] 1061-event_time
 - [x] 1064-positives_avg
+- [x] 1065-pair_between_five_numbers
+- [x] 1066-pair_odd_positive_negative
+- [x] 1067-odds
 
 *(adicione mais aqui conforme resolver)*
 
