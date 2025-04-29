@@ -1,0 +1,1747 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1000-hello_world'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1000-hello_world",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1000-hello_world",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1000-hello_world'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1000-hello_world",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1000-hello_world",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1001-basic'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1001-basic",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1001-basic",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1001-basic'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1001-basic",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1001-basic",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1002-circle_area'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1002-circle_area",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1002-circle_area",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1002-circle_area'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1002-circle_area",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1002-circle_area",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1003-simple_sum'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1003-simple_sum",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1003-simple_sum",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1003-simple_sum'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1003-simple_sum",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1003-simple_sum",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1004-simple_product'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1004-simple_product",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1004-simple_product",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1004-simple_product'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1004-simple_product",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1004-simple_product",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1005-average'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1005-average",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1005-average",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1005-average'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1005-average",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1005-average",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1006-average'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1006-average",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1006-average",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1006-average'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1006-average",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1006-average",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1007-diff'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1007-diff",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1007-diff",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1007-diff'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1007-diff",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1007-diff",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1048-increase_amount'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1048-increase_amount",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1048-increase_amount",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1048-increase_amount'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1048-increase_amount",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1048-increase_amount",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1049-animal'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1049-animal",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1049-animal",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1049-animal'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1049-animal",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1049-animal",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1050-ddd'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1050-ddd",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1050-ddd",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1050-ddd'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1050-ddd",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1050-ddd",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1051-amount_tax'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1051-amount_tax",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1051-amount_tax",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1051-amount_tax'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1051-amount_tax",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1051-amount_tax",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1052-mounth'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1052-mounth",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1052-mounth",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1052-mounth'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1052-mounth",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1052-mounth",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1059-pair'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1059-pair",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1059-pair",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1059-pair'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1059-pair",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1059-pair",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1060-positives'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1060-positives",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1060-positives",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1060-positives'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1060-positives",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1060-positives",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1061-event_time'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1061-event_time",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1061-event_time",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1061-event_time'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1061-event_time",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1061-event_time",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1143-square_cube'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1143-square_cube",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1143-square_cube",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1143-square_cube'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1143-square_cube",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1143-square_cube",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1144-logic_sequence'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1144-logic_sequence",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1144-logic_sequence",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1144-logic_sequence'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1144-logic_sequence",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1144-logic_sequence",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1153-fatorial'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1153-fatorial",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1153-fatorial",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1153-fatorial'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1153-fatorial",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1153-fatorial",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1157-divisores'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1157-divisores",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1157-divisores",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1157-divisores'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1157-divisores",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1157-divisores",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1589-raios'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1589-raios",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1589-raios",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1589-raios'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1589-raios",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1589-raios",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1930-tomadas'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1930-tomadas",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1930-tomadas",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1930-tomadas'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1930-tomadas",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1930-tomadas",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1933-tridu'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1933-tridu",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1933-tridu",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1933-tridu'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1933-tridu",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1933-tridu",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1943-topn'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1943-topn",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1943-topn",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1943-topn'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1943-topn",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1943-topn",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1985-macpro'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1985-macpro",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1985-macpro",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1985-macpro'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1985-macpro",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "1985-macpro",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2006-identify_tea'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2006-identify_tea",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2006-identify_tea",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2006-identify_tea'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2006-identify_tea",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2006-identify_tea",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2058-triangles_regular_polygons'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2058-triangles_regular_polygons",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2058-triangles_regular_polygons",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2058-triangles_regular_polygons'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2058-triangles_regular_polygons",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2058-triangles_regular_polygons",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2172-event'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2172-event",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2172-event",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2172-event'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2172-event",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2172-event",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2301-live_or_dead'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2301-live_or_dead",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2301-live_or_dead",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2301-live_or_dead'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2301-live_or_dead",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2301-live_or_dead",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2339-planes'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2339-planes",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2339-planes",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2339-planes'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2339-planes",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2339-planes",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2344-notas'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2344-notas",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2344-notas",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2344-notas'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2344-notas",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2344-notas",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2374-pneu'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2374-pneu",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2374-pneu",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2374-pneu'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2374-pneu",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2374-pneu",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2388-tacografo'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2388-tacografo",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2388-tacografo",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2388-tacografo'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2388-tacografo",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2388-tacografo",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2413-search'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2413-search",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2413-search",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2413-search'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2413-search",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2413-search",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2416-race'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2416-race",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2416-race",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2416-race'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2416-race",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2416-race",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2432-saldo_vovo'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2432-saldo_vovo",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2432-saldo_vovo",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2432-saldo_vovo'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2432-saldo_vovo",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2432-saldo_vovo",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2455-gangorra'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2455-gangorra",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2455-gangorra",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2455-gangorra'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2455-gangorra",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2455-gangorra",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2601-pericles'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2601-pericles",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2601-pericles",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2601-pericles'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2601-pericles",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2601-pericles",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2679-successor_pair'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2679-successor_pair",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2679-successor_pair",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2679-successor_pair'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2679-successor_pair",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2679-successor_pair",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2752-out6'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2752-out6",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2752-out6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2752-out6'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2752-out6",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2752-out6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2756-out'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2756-out",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2756-out",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2756-out'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2756-out",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2756-out",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2791-beans'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2791-beans",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2791-beans",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2791-beans'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2791-beans",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2791-beans",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2936-mandioca'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2936-mandioca",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2936-mandioca",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2936-mandioca'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2936-mandioca",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "2936-mandioca",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '3046-domino'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=3046-domino",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "3046-domino",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '3046-domino'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=3046-domino",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "3046-domino",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '3048-secret_sequency'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=3048-secret_sequency",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "3048-secret_sequency",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '3048-secret_sequency'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=3048-secret_sequency",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "3048-secret_sequency",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '3055-nota_forgetten'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=3055-nota_forgetten",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "3055-nota_forgetten",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '3055-nota_forgetten'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=3055-nota_forgetten",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "3055-nota_forgetten",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problems'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problems",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "problems",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problems'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problems",
+                    "--package=problems"
+                ],
+                "filter": {
+                    "name": "problems",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
