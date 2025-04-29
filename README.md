@@ -82,6 +82,13 @@ cargo run --bin 1001
 - [x] 2615-expand_bussiness
 - [x] 1018-increase_amount
 - [x] 1049-animal
+- [x] 1050-ddd
+- [x] 1051-amount_tax
+- [x] 1052-mounth
+- [x] 1059-pair
+- [x] 1060-positive
+- [x] 1061-event_time
+- [x] 1064-positives_avg
 
 *(adicione mais aqui conforme resolver)*
 
