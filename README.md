@@ -92,6 +92,9 @@ cargo run --bin 1001
 - [x] 1065-pair_between_five_numbers
 - [x] 1066-pair_odd_positive_negative
 - [x] 1067-odds
+- [x] 1070-six_odds
+- [x] 1071-sum_odds
+- [x] 1072-range_2
 
 *(adicione mais aqui conforme resolver)*
 
