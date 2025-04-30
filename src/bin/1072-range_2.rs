@@ -9,13 +9,18 @@ fn main()
     for _ in 0..n
     {
         let x:i32 = lines.next().unwrap().parse().unwrap();
-        if x >= 10 && x <= 20
+        // if x >= 10 && x <= 20
+        // {
+        //     cont_in += 1;
+        // }
+        // else
+        // {
+        //     cont_out += 1;
+        // }
+        match x
         {
-            cont_in += 1;
-        }
-        else
-        {
-            cont_out += 1;
+            10..=20 => cont_in += 1,
+            _ => cont_out += 1,
         }
     }
     println!("{} in", cont_in);
