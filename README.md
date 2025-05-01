@@ -97,6 +97,7 @@ cargo run --bin 1001
 - [x] 1072-range_2
 - [x] 1073-square_pairs
 - [x] 1074-pair_or_odd
+- [x] 1075-rest2
 
 *(adicione mais aqui conforme resolver)*
 
