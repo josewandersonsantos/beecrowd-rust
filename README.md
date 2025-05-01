@@ -95,6 +95,7 @@ cargo run --bin 1001
 - [x] 1070-six_odds
 - [x] 1071-sum_odds
 - [x] 1072-range_2
+- [x] 1073-square_pairs
 
 *(adicione mais aqui conforme resolver)*
 
