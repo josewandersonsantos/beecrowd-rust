@@ -103,6 +103,7 @@ cargo run --bin 1001
 - [x] 1080-greater_and_index
 - [x] 1094-xp
 - [x] 1095-sequence_ij1
+- [x] 1096-sequence_ij2
 
 *(adicione mais aqui conforme resolver)*
 
