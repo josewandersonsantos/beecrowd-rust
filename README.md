@@ -102,6 +102,7 @@ cargo run --bin 1001
 - [x] 1079-media_ponderada
 - [x] 1080-greater_and_index
 - [x] 1094-xp
+- [x] 1095-sequence_ij1
 
 *(adicione mais aqui conforme resolver)*
 
