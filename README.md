@@ -100,6 +100,7 @@ cargo run --bin 1001
 - [x] 1075-rest2
 - [x] 1078-table
 - [x] 1079-media_ponderada
+- [x] 1080-greater_and_index
 
 *(adicione mais aqui conforme resolver)*
 
