@@ -99,6 +99,7 @@ cargo run --bin 1001
 - [x] 1074-pair_or_odd
 - [x] 1075-rest2
 - [x] 1078-table
+- [x] 1079-media_ponderada
 
 *(adicione mais aqui conforme resolver)*
 
