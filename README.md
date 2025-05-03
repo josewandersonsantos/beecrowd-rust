@@ -105,6 +105,7 @@ cargo run --bin 1001
 - [x] 1095-sequence_ij1
 - [x] 1096-sequence_ij2
 - [x] 1097-sequence_ij3
+- [x] 1098-sequence_ij4
 
 *(adicione mais aqui conforme resolver)*
 
