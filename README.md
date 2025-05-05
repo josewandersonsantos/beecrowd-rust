@@ -110,7 +110,8 @@ cargo run --bin 1001
 - [x] 1101-sequence_sum
 - [x] 1113-inc_dec
 - [x] 1114-fixed_password
-- [x] 115-quadrante
+- [x] 1115-quadrante
+- [x] 1116-x_div_y
 
 *(adicione mais aqui conforme resolver)*
 
