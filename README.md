@@ -109,6 +109,7 @@ cargo run --bin 1001
 - [x] 1099-sum_odd2
 - [x] 1101-sequence_sum
 - [x] 1113-inc_dec
+- [x] 1114-fixed_password
 
 *(adicione mais aqui conforme resolver)*
 
