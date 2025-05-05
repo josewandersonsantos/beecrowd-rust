@@ -108,6 +108,7 @@ cargo run --bin 1001
 - [x] 1098-sequence_ij4
 - [x] 1099-sum_odd2
 - [x] 1101-sequence_sum
+- [x] 1113-inc_dec
 
 *(adicione mais aqui conforme resolver)*
 
