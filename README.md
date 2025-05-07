@@ -121,6 +121,7 @@ cargo run --bin 1001
 - [x] 1142-pum
 - [x] 1145-logic_sequence2
 - [x] 1146-increase_sequence
+- [x] 1149-sum_integer
 
 *(adicione mais aqui conforme resolver)*
 
