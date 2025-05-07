@@ -120,6 +120,7 @@ cargo run --bin 1001
 - [x] 1134-fuels_types
 - [x] 1142-pum
 - [x] 1145-logic_sequence2
+- [x] 1146-increase_sequence
 
 *(adicione mais aqui conforme resolver)*
 
