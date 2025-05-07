@@ -112,6 +112,7 @@ cargo run --bin 1001
 - [x] 1114-fixed_password
 - [x] 1115-quadrante
 - [x] 1116-x_div_y
+- [x] 1117-note_validation
 
 *(adicione mais aqui conforme resolver)*
 
