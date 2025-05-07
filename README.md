@@ -119,6 +119,7 @@ cargo run --bin 1001
 - [x] 1133-rest_of_division
 - [x] 1134-fuels_types
 - [x] 1142-pum
+- [x] 1145-logic_sequence2
 
 *(adicione mais aqui conforme resolver)*
 
