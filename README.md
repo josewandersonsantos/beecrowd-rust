@@ -116,6 +116,7 @@ cargo run --bin 1001
 - [x] 1118-many_note_validation
 - [x] 1131-grenais
 - [x] 1132-multiply_13
+- [x] 1133-rest_of_division
 
 *(adicione mais aqui conforme resolver)*
 
