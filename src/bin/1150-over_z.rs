@@ -9,7 +9,7 @@ fn main()
     loop
     {
         z = lines.next().unwrap().parse().unwrap();
-        if z > x {break;}   
+        if z > x {break;}
     }
 
     let (mut sum, mut cont):(u64, u32)  = (x, 1);
