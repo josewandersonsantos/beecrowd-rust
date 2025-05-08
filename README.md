@@ -124,6 +124,7 @@ cargo run --bin 1001
 - [x] 1149-sum_integer
 - [x] 1150-over_z
 - [x] 1154-ages
+- [x] 1155-sequence_s
 
 *(adicione mais aqui conforme resolver)*
 
