@@ -125,6 +125,7 @@ cargo run --bin 1001
 - [x] 1150-over_z
 - [x] 1154-ages
 - [x] 1155-sequence_s
+- [x] 1156-sequence_s2
 
 *(adicione mais aqui conforme resolver)*
 
