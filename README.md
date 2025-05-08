@@ -126,6 +126,7 @@ cargo run --bin 1001
 - [x] 1154-ages
 - [x] 1155-sequence_s
 - [x] 1156-sequence_s2
+- [x] 1158-sum_odd3
 
 *(adicione mais aqui conforme resolver)*
 
