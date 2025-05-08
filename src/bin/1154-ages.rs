@@ -7,7 +7,7 @@ fn main()
     let (mut sum, mut cont):(f64, f64) = (0.0,0.0);
     loop
     {
-        let mut x:f64 = lines.next().unwrap().parse().unwrap();
+        let x:f64 = lines.next().unwrap().parse().unwrap();
         if x < 0.0 {break;}
 
         sum += x;
