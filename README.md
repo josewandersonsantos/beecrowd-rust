@@ -127,6 +127,7 @@ cargo run --bin 1001
 - [x] 1155-sequence_s
 - [x] 1156-sequence_s2
 - [x] 1158-sum_odd3
+- [x] 1159-sum_pairs
 
 *(adicione mais aqui conforme resolver)*
 
