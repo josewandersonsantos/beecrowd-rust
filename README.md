@@ -122,6 +122,7 @@ cargo run --bin 1001
 - [x] 1145-logic_sequence2
 - [x] 1146-increase_sequence
 - [x] 1149-sum_integer
+- [x] 1150-over_z
 
 *(adicione mais aqui conforme resolver)*
 
