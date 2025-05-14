@@ -130,6 +130,7 @@ cargo run --bin 1001
 - [x] 1159-sum_pairs
 - [x] 1164-perfect_number
 - [x] 1165-prime_number
+- [x] 1172-subs_vector1
 
 *(adicione mais aqui conforme resolver)*
 
