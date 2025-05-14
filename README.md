@@ -129,6 +129,7 @@ cargo run --bin 1001
 - [x] 1158-sum_odd3
 - [x] 1159-sum_pairs
 - [x] 1164-perfect_number
+- [x] 1165-prime_number
 
 *(adicione mais aqui conforme resolver)*
 
