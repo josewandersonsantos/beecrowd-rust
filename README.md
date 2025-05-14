@@ -131,6 +131,7 @@ cargo run --bin 1001
 - [x] 1164-perfect_number
 - [x] 1165-prime_number
 - [x] 1172-subs_vector1
+- [x] 1026-load_or_not_load
 
 *(adicione mais aqui conforme resolver)*
 
