@@ -134,6 +134,7 @@ cargo run --bin 1001
 - [x] 1026-load_or_not_load
 - [x] 1030-flavious
 - [x] 1168-led
+- [x] 1120-contract_revision
 
 *(adicione mais aqui conforme resolver)*
 
