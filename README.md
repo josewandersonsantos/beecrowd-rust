@@ -133,6 +133,7 @@ cargo run --bin 1001
 - [x] 1172-subs_vector1
 - [x] 1026-load_or_not_load
 - [x] 1030-flavious
+- [x] 1168-led
 
 *(adicione mais aqui conforme resolver)*
 
