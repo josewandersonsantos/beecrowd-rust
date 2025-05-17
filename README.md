@@ -135,6 +135,7 @@ cargo run --bin 1001
 - [x] 1030-flavious
 - [x] 1168-led
 - [x] 1120-contract_revision
+- [x] 1234-dancer_sentence
 
 *(adicione mais aqui conforme resolver)*
 
