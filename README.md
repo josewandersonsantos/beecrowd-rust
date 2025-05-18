@@ -137,6 +137,7 @@ cargo run --bin 1001
 - [x] 1120-contract_revision
 - [x] 1234-dancer_sentence
 - [x] 1278-justify2
+- [x] 1022-tda_racional
 
 *(adicione mais aqui conforme resolver)*
 
