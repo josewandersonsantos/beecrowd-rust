@@ -139,6 +139,7 @@ cargo run --bin 1001
 - [x] 1278-justify2
 - [x] 1022-tda_racional
 - [x] 1151-fibonacci_easy
+- [x] 1069-dyamonds_and_sand
 
 *(adicione mais aqui conforme resolver)*
 
