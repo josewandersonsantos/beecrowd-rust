@@ -140,6 +140,7 @@ cargo run --bin 1001
 - [x] 1022-tda_racional
 - [x] 1151-fibonacci_easy
 - [x] 1069-dyamonds_and_sand
+- [x] 1259_pair_and_odd
 
 *(adicione mais aqui conforme resolver)*
 
