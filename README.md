@@ -142,6 +142,7 @@ cargo run --bin 1001
 - [x] 1069-dyamonds_and_sand
 - [x] 1259_pair_and_odd
 - [x] 1197-back_to_physics_college
+- [x] 1028-figurinhas
 
 *(adicione mais aqui conforme resolver)*
 
