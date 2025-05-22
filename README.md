@@ -144,6 +144,7 @@ cargo run --bin 1001
 - [x] 1197-back_to_physics_college
 - [x] 1028-figurinhas
 - [x] 1240-encaixa_ou_nao
+- [x] 1929-triangulo
 
 *(adicione mais aqui conforme resolver)*
 
