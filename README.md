@@ -143,6 +143,7 @@ cargo run --bin 1001
 - [x] 1259_pair_and_odd
 - [x] 1197-back_to_physics_college
 - [x] 1028-figurinhas
+- [x] 1240-encaixa_ou_nao
 
 *(adicione mais aqui conforme resolver)*
 
