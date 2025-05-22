@@ -145,6 +145,7 @@ cargo run --bin 1001
 - [x] 1028-figurinhas
 - [x] 1240-encaixa_ou_nao
 - [x] 1929-triangulo
+- [x] 2151-pacman
 
 *(adicione mais aqui conforme resolver)*
 
