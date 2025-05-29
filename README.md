@@ -146,6 +146,7 @@ cargo run --bin 1001
 - [x] 1240-encaixa_ou_nao
 - [x] 1929-triangulo
 - [x] 2151-pacman
+- [x] 2466-sinuca
 
 *(adicione mais aqui conforme resolver)*
 
