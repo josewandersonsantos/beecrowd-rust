@@ -9,7 +9,7 @@ fn main()
         parts.next().unwrap().parse::<i32>().unwrap(),
         parts.next().unwrap().parse::<i32>().unwrap(),
         parts.next().unwrap().parse::<i32>().unwrap())
-    }; 
+    };
     
     if a + b > c && a + c > b && b + c > a
     {
