@@ -150,8 +150,4 @@ cargo run --bin 1001
 - [x] 1241-fit_or_not
 - [x] 1248-diet_plan
 
-*(adicione mais aqui conforme resolver)*
-
----
-
-Feito com 💙 por um estudante empolgado de Engenharia da Computação!
+--
