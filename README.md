@@ -149,5 +149,6 @@ cargo run --bin 1001
 - [x] 2466-sinuca
 - [x] 1241-fit_or_not
 - [x] 1248-diet_plan
+- [x] 1253-ceaser_cipher
 
 --
