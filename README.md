@@ -152,4 +152,5 @@ cargo run --bin 1001
 - [x] 1253-ceaser_cipher
 - [x] 1173-fill_vector
 - [x] 1177-fill_vector02
+- [x] 1759-hohoho
 --
