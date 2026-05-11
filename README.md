@@ -1,5 +1,4 @@
 # 🦀 Beecrowd em Rust
-# 🦀 Beecrowd em Rust
 
 Este repositório contém soluções de problemas da plataforma [Beecrowd](https://www.beecrowd.com.br/) (antiga URI) escritas em **Rust**. É uma forma de praticar a linguagem, treinar lógica e resolver desafios clássicos de programação competitiva.
 
@@ -155,4 +154,5 @@ cargo run --bin 1001
 - [x] 1177-fill_vector02
 - [x] 1759-hohoho
 - [x] 2840-ballon
+
 --
